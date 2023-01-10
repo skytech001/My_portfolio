@@ -7,6 +7,20 @@ import data from "./data";
 const Portfolio = () => {
   const [projects, setProjects] = useState(data);
 
+  const categories = data.map((item) => item.category);
+  const uniqueCategories = ["All", ...new Set(categories)]; //this gets just one of each available categories
+
+  const filterProjectsHandler = (category) => {
+    if (category === "All") {
+      setProjects(data);
+      return;
+    }
+    const filterProjects = data.filter(
+      (project) => project.category === category
+    );
+    setProjects(filterProjects);
+  };
+
   return (
     <section id="portfolio">
       <h2>Recent Projects</h2>
@@ -15,7 +29,10 @@ const Portfolio = () => {
         the buttons to toggle the diffrent categories.
       </p>
       <div className="container portfolio__container">
-        <ProjectsCategory />
+        <ProjectsCategory
+          categories={uniqueCategories}
+          onFilterProjects={filterProjectsHandler}
+        />
         <Projects projects={projects} />
       </div>
     </section>

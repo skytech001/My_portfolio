@@ -11,7 +11,7 @@ import image9 from "../../assets/project9.jpg";
 const data = [
   {
     id: 1,
-    category: "uiux",
+    category: "Uiux",
     image: image1,
     title: "Project Title One (Uiux)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 2,
-    category: "frontend",
+    category: "Frontend",
     image: image2,
     title: "Project Title Two (Frontend)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -29,7 +29,7 @@ const data = [
   },
   {
     id: 3,
-    category: "frontend",
+    category: "Frontend",
     image: image3,
     title: "Project Title Three (Frontend)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -38,7 +38,7 @@ const data = [
   },
   {
     id: 4,
-    category: "uiux",
+    category: "Uiux",
     image: image4,
     title: "Project Title Four (Uiux)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -47,7 +47,7 @@ const data = [
   },
   {
     id: 5,
-    category: "uiux",
+    category: "Uiux",
     image: image5,
     title: "Project Title Five (Uiux)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -56,7 +56,7 @@ const data = [
   },
   {
     id: 6,
-    category: "backend",
+    category: "Backend",
     image: image6,
     title: "Project Title Six (Backend)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -65,7 +65,7 @@ const data = [
   },
   {
     id: 7,
-    category: "frontend",
+    category: "Frontend",
     image: image7,
     title: "Project Title Seven (Frontend)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -74,7 +74,7 @@ const data = [
   },
   {
     id: 8,
-    category: "backend",
+    category: "Backend",
     image: image8,
     title: "Project Title Eight (Backend)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",
@@ -83,7 +83,7 @@ const data = [
   },
   {
     id: 9,
-    category: "frontend",
+    category: "Frontend",
     image: image9,
     title: "Project Title Nine (Frontend)",
     desc: "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.",

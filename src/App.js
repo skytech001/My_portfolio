@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./sections/about/About";
 import Contact from "./sections/contact/Contact";
-import Faq from "./sections/faqs/Faq";
+import Faqs from "./sections/faqs/Faqs";
 import FloatingNav from "./sections/floatingNav/FloatingNav";
 import Footer from "./sections/footer/Footer";
 import Header from "./sections/header/Header";
@@ -19,7 +19,7 @@ const app = () => {
       <Services />
       <Portfolio />
       <Testimonials />
-      <Faq />
+      <Faqs />
       <Contact />
       <Footer />
       <FloatingNav />
