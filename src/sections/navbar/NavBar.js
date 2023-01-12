@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/image1.jpg";
 import data from "./data";
 import "./NavBar.css";
 import { IoIosColorPalette } from "react-icons/io";
